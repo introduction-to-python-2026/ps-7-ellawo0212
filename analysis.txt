@@ -1,1 +1,5 @@
-הקוד מייבא ספריות לעבודה עם גרפים ונתונים, טוען את מאגר ה־Wine מ־OpenML ושומר אותו כטבלת נתונים בשם wine, עם שלושה מאפיינים לניתוח. לאחר מכן מצוירות היסטוגרמות שמציגות את התפלגות הערכים של כל מאפיין. בהמשך נבחר מאפיין ייחוס (עוצמת הצבע) ומצוירים גרפי פיזור שמראים את הקשר בינו לבין שאר המאפיינים. לבסוף נוצר גרף פיזור אחד בין אחוז האלכוהול לעוצמת הצבע, שנשמר כקובץ ומוצג על המסך
+The code imports libraries for working with graphs and data, loads the Wine dataset from OpenML, and stores it as a data table
+called wine, with three features selected for analysis. It then plots histograms that show the distribution of values for each
+feature. Next, a reference feature (color intensity) is chosen, and scatter plots are created to show its relationship with the
+other features. Finally, a single scatter plot is generated between alcohol percentage and color intensity, which is saved as a
+PNG file and displayed on the screen.
