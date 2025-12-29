@@ -1,5 +1,1 @@
-The code imports libraries for working with graphs and data, loads the Wine dataset from OpenML, and stores it as a data table
-called wine, with three features selected for analysis. It then plots histograms that show the distribution of values for each
-feature. Next, a reference feature (color intensity) is chosen, and scatter plots are created to show its relationship with the
-other features. Finally, a single scatter plot is generated between alcohol percentage and color intensity, which is saved as a
-PNG file and displayed on the screen.
+The graph is a scatter plot showing the relationship between alcohol content (Alcohol) on the X-axis and color intensity (Color Intensity) on the Y-axis. The graph shows a general upward trend, meaning that as the alcohol content increases, the color intensity also tends to be higher, indicating a positive correlation between the variables. Most of the data is concentrated in the alcohol range of 12–14 and the color intensity range of 2–8, with some outlier points showing extreme values in both alcohol content and color intensity. The relationship does not appear perfectly uniform or linear, but there is a general tendency suggesting that wines with higher alcohol content tend to be darker.
